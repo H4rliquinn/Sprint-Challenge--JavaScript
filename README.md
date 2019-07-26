@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    forEach makes changes in place, map returns a new array.
+
 2. What is the difference between a function and a method?
+
+    Function stands alone in a program and can be called from anywhere in it's scope. A method is attached to an object and must be called from that object.
 
 3. What is closure?
 
+    A closure is the context a function was called in that follows the resulting variables and makes changes in the same context.
+
 4. Describe the four rules of the 'this' keyword.
 
+    Window, Implicit, Explicit, New Object
+
 5. Why do we need super() in an extended class?
+
+    To bring the items from the parent class into the child.
 
 ## Project Set up
 
