@@ -6,8 +6,6 @@
   object name, diet, weight, length, period
 */
 
-
-
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceous
 let tyrannosaurus={
   diet:"carnivorous",
@@ -86,7 +84,6 @@ console.log(contactInfo);
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni that contains them all. Log the result. */
 let uni = universities.filter((item)=>item.toUpperCase().includes('UNI'));
-
 console.log(uni);
 
 
